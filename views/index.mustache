@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendering</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <form id="render">
+            <input type="text" class="url" placeholder="آدرس صفحه" value="https://google.com/search?query=ایران">
+            <button>رندر</button>
+        </form>
+        <div id="result">
+            <textarea class="html" rows="10"></textarea>
+            <div class="desc">زمان رندر : <span class="time">0</span> میلی ثانیه</div>
+            <img class="screenshot">
+        </div>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>

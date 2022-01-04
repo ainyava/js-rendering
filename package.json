@@ -1,0 +1,23 @@
+{
+  "name": "zarebin-ssr",
+  "version": "0.1.0",
+  "description": "Some server side rendering solutions to dynamically render JavaScript based websites and SPA web applications.",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "keywords": ["dynamic rendering", "js rendering", "SSR", "web scraping"],
+  "author": "Hamed Mahmoudkhani <ainyava@gmail.com> (https://ainyava.ir)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mustache-express": "^1.3.2",
+    "puppeteer": "^13.0.1",
+    "zombie": "^6.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}
