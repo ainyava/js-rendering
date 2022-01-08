@@ -11,11 +11,17 @@
     <div id="wrapper">
         <form id="render">
             <input type="text" class="url" placeholder="آدرس صفحه" value="https://google.com/search?query=ایران">
+            <select class="renderer">
+            <option value="jsdom">jsdom/Axios</option>
+                <option value="zombie">Zombie JS</option>
+                <option value="optimizedPuppeteer">Optimized Pueppeteer</option>
+                <option value="puppeteer">Puppeteer</option>
+            </select>
             <button>رندر</button>
         </form>
         <div id="result">
             <textarea class="html" rows="10"></textarea>
-            <div class="desc">زمان رندر : <span class="time">0</span> میلی ثانیه</div>
+            <div class="desc"></div>
             <img class="screenshot">
         </div>
     </div>

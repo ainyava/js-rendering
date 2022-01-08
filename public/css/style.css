@@ -6,6 +6,7 @@
 * {
     padding: 0;
     margin: 0;
+    outline: 0;
     box-sizing: border-box;
     font-family: "IranYekan", Tahoma, sans-serif;
 }
@@ -21,13 +22,35 @@
     padding: .5rem;
 }
 #render button{
+    background: #6200ee;
+    color: #fff;
     padding: .5rem;
+    border: 0;
+    border-radius: 32px;
+    min-width: 100px;
+}
+#render .url{
+    background-color: #f4f2f8;
+    border: 1px solid #e4e1ed;
+    border-radius: 32px;
+    margin-left: 1rem;
+}
+#render .renderer{
+    background-color: #f4f2f8;
+    border: 1px solid #e4e1ed;
+    border-radius: 32px;
+    margin-left: 1rem;
+    padding: 0 .5rem;
 }
 #result .html{
+    background-color: #f4f2f8;
+    border: 1px solid #e4e1ed;
+    margin: 1rem 0;
     direction: ltr;
     width: 100%;
     resize: vertical;
-    padding: .5rem;
+    padding: 1rem;
+    border-radius: 32px;
 }
 img{
     max-width: 100%;

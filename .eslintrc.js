@@ -6,9 +6,9 @@ module.exports = {
   extends: ['airbnb', 'prettier'],
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
   },
   settings: {
-    'import/extensions': ['.mjs']
-  }
+    'import/extensions': ['.mjs'],
+  },
 };
